@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- stylesheet link -->
+  <link rel="stylesheet" href="../css/index.css">
+  <!-- fontAwesome link -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- font sofia link -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+
+  <title>This is my Bootstarap test page</title>
+</head>
+
+<!-- start of the navbar -->
+<nav class="navbar navbar-collapse-lg navbar-expand-xl navbar-light background-color fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <h4 class="ps-5 font-effect-fire">OnnFood</h4>
+      <p>Restro at your door step</p>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+
+        <li class="nav-item align-list">
+          <center>
+            <a class="text-dark" href="../index.html">
+            <i class="fas fa fa-home" id="home"></i>
+            <a class="nav-link lh-1" aria-current="page" href="index.html">Home</a>
+            </a>
+          </center>
+        </li>
+        <li class="nav-item align-list">
+          <center>
+            <a class="text-dark" href="Restaurant.html">
+            <i class="fas fac fa-utensils active"></i>
+            <a class="nav-link active" href="Restaurant.html">Restaurant</a>
+            </a>
+          </center>
+        </li>
+        <li class="nav-item align-list">
+          <center>
+            <a class="text-dark" href="Liquors.html">
+            <i class="fas fa fa-glass-cheers"></i>
+            <a class="nav-link" href="Liquors.html">Liquors</a>
+            </a>
+          </center>
+        </li>
+        <li class="nav-item align-list">
+          <center>
+            <a class="text-dark" href="grocery.html">
+            <i class="fas fa fa-shopping-basket"></i>
+            <a class="nav-link" href="grocery.html">Grocery</a></a>
+          </center>
+        </li>
+        <li class="nav-item align-list">
+          <center>
+            <a class="text-dark" href="bakery.html">
+            <i class="fas fa fa-birthday-cake"></i>
+            <a class="nav-link" href="bakery.html">Bakery</a>
+            </a>
+          </center>
+        </li>
+
+        <li class="nav-item align-list">
+          <center>
+            <a class="text-dark" href="chocolate.html">
+              <i class="fas fa fa-gifts"></i>
+              <a class="nav-link" href="chocolate.html">Chocolate & Gifts </a>
+              </a>
+          </center>
+        </li>
+
+        <li class=" row nav-item align-list align-items-center">
+          <center>
+            <i class="fas ms-5 text-color fa-cart-plus"></i>
+          </center>
+        </li>
+      </ul>
+      <div class="button-wrapper outline_button">
+        <a href="login.html"><button class="shadow-none btn border border-1 ps-5  pt-3  pb-3 pe-5 ms-4 text-muted rounded-pill">
+          <i class="far fa-user pe-2"></i>
+          Login/Register</button></a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- end of navbar -->
+
+<body>
+  <!-- start of the header  -->
+  <div class="container-fluid m-0 p-0">
+      <div class=" position-realtive restnt-backgroundimage">
+          <img src="../image/a.jfif" alt="" class="w-100">
+      </div>
+      <p class="position-absolute rest-name fw-bold text-light text-center"> Restaurant</p>
+    </div>
+    <!-- start of the breadcrump for active page -->
+    <div class="container-fluid ps-5 pt-2 pb-1 breadcrumb-color ">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html" class="text-secondary text-decoration-none">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Restaurant</li>
+        </ol>
+      </nav>
+      </div>
+      <!-- end of the breadcrump -->
+
+      <!-- start of the filter bar -->
+      <div class=" container input-group mt-3 shadow rounded-3 p-3">
+        <select class=" col-sm-2 col-md-2 col-lg-3 me-1  form-select shadow-none  border-0 border-end" aria-label="Default select example">
+            <option selected class="abc">Authentic Nepali</option>
+            <option value="1" class="abc">Halal</option>
+            <option value="2" class="abc">Indian Cuisine</option>
+            <option value="3" class="abc">Japanies Cuisine</option>
+          </select>
+
+          <select class=" col-sm-2 col-md-2 col-lg-3 me-1 shadow-none form-select border-0 border-end" aria-label="Default select example">
+            <option selected class="abc">Bharatpur</option>
+            <option value="1" class="abc">Padampur</option>
+            <option value="2" class="abc">Nawalparasi</option>
+            <option value="3" class="abc">Kathmandu</option>
+          </select>
+        <input type="text" class=" col-sm-2 col-md-2 col-lg-3 shadow-none border-1 p-2 rounded-3 form-control me-1 border-start"  placeholder="text">
+        <button class="col-sm-2 col-md-2 col-lg-2 btn btn-danger shadow-none border-start ps-4 text-light" type="button">Filter</button>
+      </div>
+      <!-- end of the  filter bar -->
+
+  <!--  start of the featured restaurant -->
+   <div class="container mt-5 mb-5 ps-3">
+    <!-- start of card  -->
+    <div class="row row-cols-1 row-cols-md-4 row-cols-lg-4">
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://media.istockphoto.com/photos/packed-boxes-in-closed-cafe-small-business-lockdown-due-to-picture-id1292283611?b=1&k=20&m=1292283611&s=170667a&w=0&h=MUg2YuPm6xgtZS6VtWT5MYKeWARV6z6TNlkD70XdNiI=" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0 fs-6"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://media.istockphoto.com/photos/restaurant-kitchen-crew-in-action-picture-id1277763706?b=1&k=20&m=1277763706&s=170667a&w=0&h=oFB9fgBOnyAH-0L4yMWlOj28kDDj6WbPzratZ4spP40=" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0 fs-6"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://media.istockphoto.com/photos/packed-boxes-in-closed-cafe-small-business-lockdown-due-to-picture-id1292283611?b=1&k=20&m=1292283611&s=170667a&w=0&h=MUg2YuPm6xgtZS6VtWT5MYKeWARV6z6TNlkD70XdNiI=" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0 fs-6"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://media.istockphoto.com/photos/we-missed-you-lets-do-coffee-picture-id1272761182?b=1&k=20&m=1272761182&s=170667a&w=0&h=ux82PHhGbTRnAqmLIq2vWs1sPpR9UdwBHdvDBD8X8hc=" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0 fs-6"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://media.istockphoto.com/photos/empty-cafe-interior-with-chairs-and-tables-picture-id1286692956?b=1&k=20&m=1286692956&s=170667a&w=0&h=PGjBVMeX_zHAEO_6ZPipHTfQx5zoQBOU24Z4bG4Xqsk=" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0 fs-6"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0 fs-6"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0 fs-6"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0 fs-6"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://images.unsplash.com/photo-1428515613728-6b4607e44363?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0 fs-6"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0 fs-6"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0 fs-6"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://images.unsplash.com/photo-1471253794676-0f039a6aae9d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0 fs-6"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0 fs-6"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://images.unsplash.com/photo-1574085733277-851d9d856a3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OTd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://images.unsplash.com/photo-1600917016506-556622b74303?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://images.unsplash.com/photo-1589997677411-e433c882b2ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!-- end of card -->
+  </div> 
+  <!-- end of the featured restaurant -->
+
+  <!-- start of the footer -->
+  <div class="container-fluid p-0 m-0 footer-wrapper">
+  <div class="  footer-opacity">
+    <div class="image-icon">
+      <img src="../image/food-app.png" alt="" class="float-end mt-5 img-fluid">
+    </div>
+    <div class="d-flex justify-content-center"> 
+    <h3 class="footer-text fw-bold ps-4 col-sm-4 col-md-3 col-lg-6 text">Oreder foods from your phone</h3>
+    </div>
+    <div class="d-flex justify-content-center mt-2 footer-row">
+      <a href="https://play.google.com/store/apps/details?id=com.fooddole.fooddole"><i class="fab fai text-dark bg-light ps-3 pe-3 pt-2 pb-2 mb-2 ms-4  fa-google-play"></i></a>
+      <a href="https://apps.apple.com/us/app/fooddole/id1520152436"><i class="fab fai text-dark bg-light ps-3 pe-3 pt-2 pb-2  ms-4 fa-apple"></i></a>
+    </div>
+  </div>
+  </div>
+  <!-- end of the footer  -->
+
+  <!-- start of the second footer  -->
+   <div class="container-fluid bg-dark">
+    <footer class="px-5 py-5">
+      <div class="footer-row justify-content-evenly">
+        <div class="col-2 text-light">
+          <h6 class="text-info">OnnFood</h6>
+          <p>Ordering Food Online in chitwan city is easy with OnnFood. We provide fastest Online Food Delivery from different restaurants of your choice. Call:9801100280</p>
+        </div>
+        <div class="col-2 text-light">
+          <h6 class="text-info">Quick Links</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Blog</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-2 text-light">
+          <h6 class="text-info">Categories</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">New Restaurants</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Featured Restaurants</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Driver Registration</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Vendor Registration</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-2 text-light">
+          <h6 class="text-info">contact</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Lazimpat, Kathmandu</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">+977-9801147280</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">info@fooddole.com</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Contact Us</a></li>
+          </ul>
+        </div>
+  
+      </div>
+  
+      <div class=" border-top text-light">
+        <p class="row justify-content-center text-info">&copy; 2021 Company, Inc. All rights reserved.</p>
+      </div>
+    </footer>
+  </div> 
+<script src="incrementdecrement.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

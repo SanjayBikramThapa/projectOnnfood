@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- stylesheet link -->
+  <link rel="stylesheet" href="../css/index.css">
+  <!-- fontAwesome link -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- font sofia link -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+
+  <!-- link for slick css -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+ 
+  <title>This is my Bootstarap test page</title>
+</head>
+<body>
+<!-- start of the navbar -->
+<nav class="navbar navbar-collapse-lg navbar-expand-xl navbar-light background-color fixed-top">
+  <div class="container-fluid ">
+    <a class="navbar-brand" href="#">
+      <h4 class="ps-5 text-dark font-effect-fire">OnnFood</h4>
+      <p>Restro at your door step</p>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item align-list active">
+          <center>
+            <a class="text-dark" href="#Home">
+            <i class="fas fa fa-home active" id="home"></i>
+            <a class="nav-link active" aria-current="page" href="#Home" id="hometext">Home</a>
+            </a>
+          </center>
+        </li>
+        <li class="nav-item align-list">
+          <center>
+            <a class="text-dark" href="./html/Restaurant.html">
+            <i class="fas fac fa-utensils"></i>
+            <a class="nav-link" href="./html/Restaurant.html">Restaurant</a>
+            </a>
+          </center>
+        </li>
+        <li class="nav-item align-list">
+          <center>
+            <a class="text-dark" href="./html/Liquors.html">
+            <i class="fas fa fa-glass-cheers"></i>
+            <a class="nav-link" href="/html/Liquors.html">Liquors</a>
+            </a>
+          </center>
+        </li>
+        <li class="nav-item align-list">
+          <center>
+            <a class="text-dark" href="/html/grocery.html">
+            <i class="fas fa fa-shopping-basket"></i>
+            <a class="nav-link" href="/html/grocery.html">Grocery</a></a>
+          </center>
+        </li>
+        <li class="nav-item align-list">
+          <center>
+            <a class="text-dark" href="/html/bakery.html">
+            <i class="fas fa fa-birthday-cake"></i>
+            <a class="nav-link" href="/html/bakery.html">Bakery</a>
+            </a>
+          </center>
+        </li>
+
+        <li class="nav-item align-list">
+          <center>
+            <a class="text-dark" href="/html/chocolate.html">
+              <i class="fas fa fa-gifts"></i>
+              <a class="nav-link" href="/html/chocolate.html">Chocolate & Gifts </a>
+              </a>
+          </center>
+        </li>
+
+        <li class=" row nav-item align-list align-items-center">
+          <center>
+            <a href="/html/cart.html">
+            <i class="fas ms-5 text-color fa-cart-plus"></i></a>
+          </center>
+        </li>
+      </ul>
+      <div class="button-wrapper outline_button">
+        <a href="/html/login.html"><button class="shadow-none btn border border-1 ps-5  pt-3  pb-3 pe-5 ms-4 text-muted rounded-pill">
+          <i class="far fa-user pe-2"></i>
+          Login/Register</button></a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- end of navbar -->
+
+
+  <!-- start of the header  -->
+  <div class="background container-fluid  pb-5">
+    <div class="row container-fluid navs">
+      <h2 class=" row text justify-content-center fw-bold text-dark font-effect-fire" id="Home">Are you hungry?</h2>
+      <p class=" row text justify-content-center fw-bold text-light font-effect-fire text-dark">Order from yoour favorite Restaurant </p>
+      <div class="d-flex justify-content-center">
+        <div class="input-group">
+          <form action="" class="input-group mt-2 justify-content-center">
+            <div class="form-floating col-5">
+              <input type="text" class="form-control shadow-none" id="floatingInput" placeholder="search">
+              <label for="floatingInput">Search</label>
+            </div>
+            <button type="button" class="btn btn-info shadow">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <h1 class="row justify-content-center pt-3 header-color text-dark font-effect-fire">Cuisines</h1>
+      <span class="underline bg-info"></span>
+    </div>
+    <!-- end of the header -->
+    <!-- starting of slick  card -->
+    <div class="container p-5">
+    <div class=" hint margintop">
+      <div class=" card-wrapper">
+        <div class="card image-card  d-flex justify-content-center align-items-center shadow border border-0">
+          <i class="fas fam fa-hamburger"></i>
+        </div>
+        <p class="text-truncate">Nepali cuisines</p>
+      </div>
+      <div class=" card-wrapper">
+        <div class="card image-card d-flex justify-content-center align-items-center shadow border border-0">
+          <i class="fas fam fa-pizza-slice"></i>
+        </div>
+        <p class=" text-truncate">Indian cuisines</p>
+      </div>
+      <div class=" card-wrapper">
+        <div class="card image-card d-flex justify-content-center align-items-center border border-0 shadow">
+          <i class="fas fam fa-coffee"></i>
+        </div>
+        <p class="text-truncate">Thai cuisines</p>
+      </div>
+      <div class=" card-wrapper">
+        <div class="card image-card d-flex justify-content-center align-items-center border border-0 shadow">
+          <i class="fas fam fa-concierge-bell"></i>
+        </div>
+        <p class="text-truncate">Italian cuisines</p>
+      </div>
+
+      <div class=" card-wrapper">
+        <div class="card image-card d-flex justify-content-center align-items-center border border-0 shadow">
+          <i class="fas fam fa-concierge-bell"></i>
+        </div>
+        <p class="text-truncate">Italian cuisines</p>
+      </div>
+
+      <div class=" card-wrapper">
+        <div class="card image-card d-flex justify-content-center align-items-center border border-0 shadow">
+          <i class="fas fam fa-concierge-bell"></i>
+        </div>
+        <p class="text-truncate">Italian cuisines</p>
+      </div>
+
+      <div class=" card-wrapper">
+        <div class="card image-card d-flex justify-content-center align-items-center border border-0 shadow">
+          <i class="fas fam fa-concierge-bell"></i>
+        </div>
+        <p class="text-truncate">Italian cuisines</p>
+      </div>
+
+      <div class="card-wrapper">
+        <div class="card image-card d-flex justify-content-center align-items-center border border-0 shadow">
+          <i class="fas fam fa-concierge-bell"></i>
+        </div>
+        <p class=" text-truncate">Italian cuisines</p>
+      </div>
+    </div> 
+</div>
+</div>
+  <!-- scripted link for slick slider  -->
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script> 
+ <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+
+      $('.hint').slick({
+        centerMode:true,
+        slidesToShow: 3,
+        prevArrow: false,
+        nextArrow: false,
+        centerPadding:'30px',
+        slidesToScroll: 1,
+        responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            centerMode:true,
+            centerPadding:'30px',
+            slidesToShow: 3,
+            slidesToScroll: 3,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            centerMode:true,
+            slidesToShow: 2,
+            centerPadding:'30px',
+            slidesToScroll: 2,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            centerMode:true,
+            slidesToShow: 1,
+            centerPadding:'60px',
+            slidesToScroll: 1,
+          }
+        }]
+      });
+    })
+
+
+  </script>
+
+
+
+  <!-- end of the card -->
+  <!-- starting of the flex card -->
+  <div class="d-flex justify-content-center mt-5 mb-5 flex-imagecard">
+    <img src="../image/flex.jpg" alt="flex image" class="rounded-3">
+  </div>
+  <!-- end of the flex card -->
+
+  <!-- start of the excluive deals  -->
+  <div class="container ps-4 mb-5">
+    <h5 class="text fw-bold">Exclusive Deal</h5>
+    <div class="row row-cols-1 row-cols-md-4 mt-2 g-2">
+      <div class="card border-0 me-4 shadow">
+        <div class="card-hover">
+          <img src="https://images.unsplash.com/photo-1507260385058-676ee3f043e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+        </div>
+        <p class="text-muted  ps-2">Baardali Cafe Thamel</p>
+      </div>
+
+      <div class="card border-0 me-4 shadow">
+        <div class="card-hover">
+          <img src="https://images.unsplash.com/photo-1508706000025-b720ee541485?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+        </div>
+        <p class="text-muted  ps-2">Baardali Cafe Thamel</p>
+      </div>
+
+      <div class="card border-0 shadow">
+        <div class="card-hover">
+          <img src="https://media.istockphoto.com/photos/red-wineglass-and-bottle-copy-space-picture-id1297401631?b=1&k=20&m=1297401631&s=170667a&w=0&h=6ZY_oidUVZWgmSwQ1k2Iuan7-MMy30p4JlDyzJFdMXQ=" class="card-img-top" alt="...">
+        </div>
+        <p class="text-muted  ps-2">Baardali Cafe Thamel</p>
+      </div>
+    </div>
+  </div>
+  <!-- end of the exclusive deal -->
+
+  <!-- start of the Exquisite card -->
+  <div class="container ps-4">
+    <h5 class="text fw-bold">Exquisite Deal</h5>
+    <div class="row row-cols-1 row-cols-md-4 mt-2 g-2">
+
+      <div class="card border-0 mb-4">
+        <div class="me-3 shadow rounded-3">
+        <div class="card-hover">
+          <img src="https://media.istockphoto.com/photos/variety-of-fresh-organic-vegetables-and-fruits-in-the-garden-picture-id1280856062?b=1&k=20&m=1280856062&s=170667a&w=0&h=wQu-c2ZjzeCBkAGEj69xpF611lx1i_xim48vOCj_Dw0=" class="card-img-top" alt="...">
+        </div>
+        <p class="text-muted  ps-2">Baardali Cafe Thamel</p>
+      </div>
+      </div>
+
+      <div class="card border-0 mb-4">
+        <div class="me-3 shadow rounded-3">
+        <div class="card-hover">
+          <img src="https://images.unsplash.com/photo-1439127989242-c3749a012eac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mjl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+        </div>
+        <p class="text-muted  ps-2">Baardali Cafe Thamel</p>
+      </div>
+      </div>
+
+      <div class="card border-0 mb-4">
+        <div class="me-3 shadow rounded-3">
+        <div class="card-hover">
+          <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+        </div>
+        <p class="text-muted  ps-2">Baardali Cafe Thamel</p>
+      </div>
+      </div>
+
+      <div class="card border-0 mb-4">
+        <div class="me-3 shadow rounded-3">
+        <div class="card-hover">
+          <img src="https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+        </div>
+        <p class="text-muted  ps-2">Baardali Cafe Thamel</p>
+      </div>
+      </div>
+
+      <div class="card border-0 mb-4">
+        <div class="me-3 shadow rounded-3">
+        <div class="card-hover">
+          <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mjd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+        </div>
+        <p class="text-muted  ps-2">Baardali Cafe Thamel</p>
+      </div>
+      </div>
+
+      <div class="card border-0 mb-4">
+        <div class="me-3 shadow rounded-3">
+        <div class="card-hover">
+          <img src="https://images.unsplash.com/photo-1484300681262-5cca666b0954?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NTl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+        </div>
+        <p class="text-muted  ps-2">Baardali Cafe Thamel</p>
+      </div>
+      </div>
+
+      <div class="card border-0 mb-4">
+        <div class="me-3 shadow rounded-3">
+        <div class="card-hover">
+          <img src="https://images.unsplash.com/photo-1563252781-2f76e089e889?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+        </div>
+        <p class="text-muted  ps-2">Baardali Cafe Thamel</p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of the exquisite card -->
+
+  <!--  start of the featured restaurant -->
+  <div class="container  mt-4 mb-5 ps-3">
+    <h4 class="d-flex justify-content-center text fs-3 fw-bold">Featured Resstaurant</h4>
+    <p class="text d-flex justify-content-center mb-3">Try New Taste From Your Favourite Restaurant</p>
+    <!-- start of card  -->
+    <div class="row row-cols-1 row-cols-md-4">
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0 fs-6"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://images.unsplash.com/photo-1574085733277-851d9d856a3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OTd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://images.unsplash.com/photo-1600917016506-556622b74303?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-4 mb-3">
+        <div class="card shadow rounded-3">
+          <img src="https://images.unsplash.com/photo-1589997677411-e433c882b2ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top featured-image" alt="...">
+          <div class="sub-card position-absolute border border-5">
+            <i class="fas fam pt-2 d-flex justify-content-center fa-mortar-pestle"></i>
+          </div>
+          <div class="fac-icon position-absolute end-0 m-2 rounded-pill">
+            <i class="fas d-flex justify-content-center p-2 fai fa-heart"></i>
+          </div>
+          <div class="card-body mt-2 mb-0">
+            <h5 class="card-title d-flex justify-content-center m-0 p-0">Card title</h5>
+            <p class="text-muted d-flex justify-content-center ">Indian cuisine</p>
+            <hr>
+            <p class="p-0 m-0"><i class="fas pe-3 fa-map-marker-alt text-muted pt-1"></i>kathmandu,nayabazar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of card -->
+  </div>
+  <!-- end of the featured restaurant -->
+  <!-- start of the new member card -->
+  <div class="container mt-4 mb-5 ">
+    <h4 class="d-flex justify-content-center text fs-3 fw-bold">new member </h4>
+    <p class="text d-flex justify-content-center mb-3">Try New Taste From Your nearest Restaurant</p>
+    <!-- start of card  -->
+    
+    <div class="row row-cols-1 row-cols-md-6 d-flex justify-content-center">
+
+      <div class="member-card col mx-auto mb-5">
+      <div class="member-wrapper d-flex justify-content-center align-items-center">
+        <img
+          src="https://st2.depositphotos.com/1035649/7783/v/950/depositphotos_77833258-stock-illustration-restaurant-logo.jpg"
+          lex alt="" class="d-flex justify-content-center">
+      </div>
+      <p class="mx-auto ps-4">Bhojan Bhumi</p>
+      </div>
+
+
+      <div class="member-card col mx-auto mb-5">
+        <div class="member-wrapper d-flex justify-content-center align-items-center">
+          <img
+          src="https://st2.depositphotos.com/3994451/8311/v/950/depositphotos_83118356-stock-illustration-luxury-logo-template-flourishes-calligraphic.jpg"
+          alt="" class="d-flex justify-content-center">
+        </div>
+        <p class="mx-auto ps-4">Bhojan Bhumi</p>
+        </div>
+
+        <div class="member-card col mx-auto mb-5">
+          <div class="member-wrapper d-flex justify-content-center align-items-center">
+            <img
+            src="https://st2.depositphotos.com/3800167/8113/v/950/depositphotos_81131596-stock-illustration-royal-hotel-logo.jpg"
+            alt="" class="d-flex justify-content-center">
+          </div>
+          <p class="mx-auto ps-4">Bhojan Bhumi</p>
+          </div>
+
+          <div class="member-card col mx-auto mb-5">
+            <div class="member-wrapper d-flex justify-content-center align-items-center">
+              <img
+              src="https://st.depositphotos.com/2160693/3510/v/950/depositphotos_35100219-stock-illustration-menu-design-food-drink-dishes.jpg"
+              alt="" class="d-flex justify-content-center">
+            </div>
+            <p class="mx-auto ps-4">Bhojan Bhumi</p>
+            </div>
+
+
+            <div class="member-card col mx-auto mb-5">
+              <div class="member-wrapper d-flex justify-content-center align-items-center">
+                <img
+                src="https://st2.depositphotos.com/4024659/8124/v/950/depositphotos_81241690-stock-illustration-monogram-design-elements-graceful-template.jpg"
+                alt="" class="d-flex justify-content-center">
+              </div>
+              <p class="mx-auto ps-4">Bhojan Bhumi</p>
+              </div>
+
+              <div class="member-card col mx-auto mb-5">
+                <div class="member-wrapper d-flex justify-content-center align-items-center">
+                  <img
+                  src="https://st2.depositphotos.com/7109552/11377/v/950/depositphotos_113775112-stock-illustration-vintage-restaurant-and-cafe-label.jpg"
+                  alt="" class="d-flex justify-content-center">
+                </div>
+                <p class="mx-auto ps-4">Bhojan Bhumi</p>
+                </div>
+                </div>
+              <div class="row row-cols-1 row-cols-md-6 d-flex justify-content-center">
+                
+          <div class="member-card col mx-auto mb-5">
+        <div class="member-wrapper d-flex justify-content-center align-items-center">
+          <img
+            src="https://st2.depositphotos.com/1035649/7783/v/950/depositphotos_77833258-stock-illustration-restaurant-logo.jpg"
+            lex alt="" class="d-flex justify-content-center">
+        </div>
+        <p class="mx-auto ps-4">Bhojan Bhumi</p>
+        </div>
+  
+  
+        <div class="member-card col mx-auto mb-5">
+          <div class="member-wrapper d-flex justify-content-center align-items-center">
+            <img
+            src="https://st2.depositphotos.com/3994451/8311/v/950/depositphotos_83118356-stock-illustration-luxury-logo-template-flourishes-calligraphic.jpg"
+            alt="" class="d-flex justify-content-center">
+          </div>
+          <p class="mx-auto ps-4">Bhojan Bhumi</p>
+
+          </div>
+  
+          <div class="member-card col mx-auto mb-5">
+            <div class="member-wrapper d-flex justify-content-center align-items-center">
+              <img
+              src="https://st2.depositphotos.com/3800167/8113/v/950/depositphotos_81131596-stock-illustration-royal-hotel-logo.jpg"
+              alt="" class="d-flex justify-content-center">
+            </div>
+            <p class="mx-auto ps-4">Bhojan Bhumi</p>
+            </div>
+  
+            <div class="member-card col mx-auto mb-5">
+              <div class="member-wrapper d-flex justify-content-center align-items-center">
+                <img
+                src="https://st.depositphotos.com/2160693/3510/v/950/depositphotos_35100219-stock-illustration-menu-design-food-drink-dishes.jpg"
+                alt="" class="d-flex justify-content-center">
+              </div>
+              <p class="mx-auto ps-4">Bhojan Bhumi</p>
+              </div>
+  
+  
+              <div class="member-card col mx-auto mb-5">
+                <div class="member-wrapper d-flex justify-content-center align-items-center">
+                  <img
+                  src="https://st2.depositphotos.com/4024659/8124/v/950/depositphotos_81241690-stock-illustration-monogram-design-elements-graceful-template.jpg"
+                  alt="" class="d-flex justify-content-center">
+                </div>
+                <p class="mx-auto ps-4">Bhojan Bhumi</p>
+                </div>
+  
+                <div class="member-card col mx-auto mb-5">
+                  <div class="member-wrapper d-flex justify-content-center align-items-center">
+                    <img
+                    src="https://st2.depositphotos.com/7109552/11377/v/950/depositphotos_113775112-stock-illustration-vintage-restaurant-and-cafe-label.jpg"
+                    alt="" class="d-flex justify-content-center">
+                  </div>
+                  <p class="mx-auto ps-4">Bhojan Bhumi</p>
+                  </div>
+    </div>
+    <!-- end of card -->
+  </div>
+  <!-- end of the new member card -->
+  <!-- start of the footer -->
+  <div class="container-fluid p-0 m-0 footer-wrapper">
+  <div class="  footer-opacity">
+    <div class="image-icon">
+      <img src="../image/food-app.png" alt="" class="float-end mt-5 img-fluid">
+    </div>
+    <div class="d-flex justify-content-center"> 
+    <h3 class="footer-text fw-bold ps-4 col-sm-4 col-md-3 col-lg-6 text">Oreder foods from your phone</h3>
+    </div>
+    <div class="d-flex justify-content-center mt-2 footer-row">
+      <a href="https://play.google.com/store/apps/details?id=com.fooddole.fooddole"><i class="fab fai text-dark bg-light mb-2 ms-4 ps-3 pe-3 pt-2 pb-2 fa-google-play"></i></a>
+      <a href="https://apps.apple.com/us/app/fooddole/id1520152436"><i class="fab fai text-dark bg-light ps-3 pe-3 pt-2 pb-2 ms-4 fa-apple"></i></a>
+    </div>
+  </div>
+  </div>
+  <!-- end of the footer  -->
+
+  <!-- start of the second footer  -->
+   <div class="container-fluid bg-dark">
+    <footer class="px-5 py-5">
+      <div class="footer-row justify-content-evenly">
+        <div class="col-2 text-light">
+          <h6 class="text-info">OnnFood</h6>
+          <p>Ordering Food Online in chitwan city is easy with OnnFood. We provide fastest Online Food Delivery from different restaurants of your choice. Call:9801100280</p>
+        </div>
+        <div class="col-2 text-light">
+          <h6 class="text-info">Quick Links</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Blog</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-2 text-light">
+          <h6 class="text-info">Categories</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">New Restaurants</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Featured Restaurants</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Driver Registration</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Vendor Registration</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-2 text-light">
+          <h6 class="text-info">contact</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Lazimpat, Kathmandu</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">+977-9801147280</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">info@fooddole.com</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Contact Us</a></li>
+          </ul>
+        </div>
+  
+      </div>
+  
+      <div class=" border-top text-light">
+        <p class="row justify-content-center text-info">&copy; 2021 Company, Inc. All rights reserved.</p>
+      </div>
+    </footer>
+  </div> 
+<script src="incrementdecrement.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

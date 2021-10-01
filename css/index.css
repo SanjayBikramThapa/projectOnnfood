@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+.navbar-brand h4{
+    padding: 0;
+    margin: 0;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-family: "Sofia", sans-serif;
+}
+.navbar-brand  p{
+    letter-spacing: 4px;
+    color: #2CA146;
+    font-size: 12px;
+    padding-left: 2rem;
+}
+.background-color{
+    background-color: #f3f3f3; 
+}
+.background{
+    /* background-color: #F3F3F3; */
+    width: 100%;
+    background-image: url('../image/background.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fa{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+.fac{
+    font-size: 18px;
+}
+.fam{
+    font-size: 40px;
+    color: #f00;
+}
+.align-list{
+    padding: 0;
+    margin: 0;
+    padding-left: 4rem; 
+}
+.nav-item a{
+    font-size: 13px;
+}
+.text-color{
+    font-size: 30px;
+    color: rgba(140, 0, 0, 0.75);
+}
+.text{
+    color: rgba(120, 247, 109, 0.918);
+    font-family: "Sofia", sans-serif;
+
+}
+.navbar-collapse li:hover i{
+    color:#f00;
+}
+.navbar-collapse li:hover a{
+    color:#f00 !important;
+}
+.button-wrapper:hover button{
+   background-color:rgba(255, 0, 0, 0.8);
+   color: #fff !important;
+}
+.navs{
+    padding-top: 150px !important;
+}
+.header-color{
+    color: rgba(21, 255, 0, 0.918);
+    font-family: "Sofia", sans-serif;
+
+}
+.underline{
+    width: 70px !important;
+    height: 5px;
+    background-color: rgba(21, 255, 0, 0.918);
+    margin: auto;
+}
+.image-card{
+    width: 100px !important;
+    height: 100px !important;
+}
+.margintop{
+    padding-top: 10px !important;
+}
+.image-card:hover{
+    background-color: #f00;
+}
+.image-card:hover i{
+    color: #fff;
+}
+/* .card-wrapper{
+    width: 100px !important;
+} */
+.card-wrapper:hover {
+    color: #f00 !important;
+}
+/* end of the cover navs  */
+
+/* start of the fleximage */
+.flex-imagecard img{
+    width: 80%;
+    height: 190px;
+} 
+.card-hover{
+    overflow: hidden;
+}
+.card-hover img{
+    height: 200px !important;
+    transition: all 2s;
+}
+
+ 
+.card-hover img:hover{
+    transform: scale(1.3);
+}
+.sub-card{
+    width: 80px;
+    height: 80px;
+    background-color:  #fff;
+    left: 50%;
+    margin-left: -40px;
+    top: 50%;
+    margin-top: -50px;
+}
+.fac-icon{
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #fff;
+}
+.fai{
+    font-size: 25px;
+}
+.fac-icon:hover .fai{
+    color: #f00;
+}
+.featured-image{
+    height: 170px !important;
+}
+
+
+/* starting of the new member */
+.member-card{
+    width: 151px !important;
+    height: 144px !important; 
+}
+.member-wrapper{
+    width: 151px !important;
+    height: 144px !important;
+    background-color: #E7E9EB;
+}
+.member-wrapper img{
+    width: 111px !important;
+    height: 104px !important;
+}
+/* end of the member card  */
+
+/* start of the footer */
+.footer-wrapper{
+    height: 440px !important;
+    background-image: url('https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+.footer-opacity{
+    height: 440px !important;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.image-icon img{
+    height: 400px !important;
+}
+.footer-text{
+padding-top:150px;
+font-size: 50px;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* end of the footer */
+/* end of the home custom design */
+
+
+/* start of the restaurant page custom css*/
+.restnt-backgroundimage img{
+    height: 400px !important;
+}
+.rest-name{
+    top: 40%;
+    left:40%;
+    font-size: 50px;
+    letter-spacing: 2px; 
+}
+.chocolate-name{
+    top: 40%;
+    left:35%;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.breadcrumb-color{
+    background-color: #F8F8F8;
+}
+.input-outline{
+    outline: hidden !important;
+}
+
+.slick-next, .slick-prev{
+   border: none !important;
+   background-color: white !important;
+}
+    .slick-prev:before {
+        content: "<";
+        color: red;
+        font-size: 40px;
+    }
+    
+    .slick-next:before {
+        content: ">";
+        color: red;
+        font-size: 40px;
+    }
+/* end of the restaurant */
+
+/* starting of the liquors  */
+
+    .liquors-image{
+        height: 420px !important;
+        background-color: #E7E9EB;
+    }
+
+    .liquors-image img{
+        height: 200px !important;
+    }
+
+    .input-wrap{
+        width:50% !important;
+    }
+    
+/* end of the liquors */
+    /* start of login page */
+    .login{
+        background-image: url('../image/login.jfif');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .form-background{
+        background-image: url('../image/logins.jfif');
+        background-position: center;
+        background-size: cover;
+    }
+    .margin-top{
+        margin-top: 10rem !important;
+    }
+    /* end of login page */
+
+/* starting of the cart */
+    .margin-cart{
+        margin-top: 8rem !important;
+    }
+    /* .cart-col{
+        height: 150px !important;
+    } */
+    .cart-col img{
+        height: 100px !important;
+    }
+
+
+/* start of the media query for small view  */
+@media screen and (max-width:768px) {
+    .navs{
+        padding-top: 10px;
+    }
+    .image-card{
+        width: 40px !important;
+        height: 40px !important;
+        background-color: #E7E9EB;
+        border: none !important;
+    }
+    .margintop{
+        padding-top: 30px !important;
+    }
+    .fam{
+        font-size: 20px;
+    }
+    .featured-image{
+        height: 200px !important;
+    }
+    .sub-card{
+        width: 60px !important;
+        height: 60px !important;
+        background-color:  #fff;
+        left: 50% !important;
+        margin-left: -30px !important;
+        top: 60% !important;
+        margin-top: -50px !important;
+    }
+    .fam{
+        font-size: 20px;
+    }
+    .flex-imagecard img{
+        width: 80%;
+        height: 10%;
+    }
+    .member-card{
+        width: 130px !important;
+        height: 116px !important; 
+    }
+    .member-wrapper{
+        width: 130px !important;
+        height: 116px !important;
+    }
+    .member-wrapper img{
+        width: 97px !important;
+        height: 68px !important;
+    }
+    .footer-wrapper{
+        height: 230px !important;
+    
+    }
+    .footer-opacity{
+        height: 230px !important;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .image-icon img{
+        height: 170px !important;
+    }
+    .footer-text{
+        padding-top:40px;
+        font-size: 20px;
+        }
+        .footer-row{
+            display:block;
+        }
+        .footer-row h6{
+            color: #00FF00 !important;
+            text-decoration: underline;
+        }
+        /* start of the restaurant.html */
+        .restnt-backgroundimage img{
+            height: 200px !important;
+        }
+        .rest-name{
+            top: 150px;
+            left: 20%;
+            right: 50px !important;
+            font-size: 25px;
+            letter-spacing: 2px; 
+        }
+        .chocolate-name{
+            top: 150px;
+            left: 15%;
+            font-size: 25px;
+            letter-spacing: 2px; 
+        }
+        .form-select .abc{
+            font-size:10px !important;
+        }
+        .input-wrap{
+            width:50% !important;
+        }
+        .slick-prev:before {
+            content: "<";
+            color: red;
+            font-size: 20px;
+        }
+        
+        .slick-next:before {
+            content: ">";
+            color: red;
+            font-size: 20px;
+        }
+        .background{
+            /* background-color: #F3F3F3; */
+            width: 100%;
+            background-image: url('../image/background.jfif');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+} 
+
+
+/* large view */
+@media screen and (max-width:1024px) {
+    .sub-card{
+        width: 60px;
+        height: 60px;
+        background-color:  #fff;
+        left: 50%;
+        margin-left: -30px;
+        top: 55%;
+        margin-top: -50px;
+    }  
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.active{
+    color: #2CA146 !important;
+}
